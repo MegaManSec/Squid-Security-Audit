@@ -1,8 +1,8 @@
-# Squid Caching Proxy Security Audit
+# Squid Caching Proxy Security Audit: 55 vulnerabilities and 35 0days
 
 In February 2021, I started looking for vulnerabilities in forward-proxies, and found various issues in Squid. Some more information about what's here can be found on my blog: [https://joshua.hu/squid-security-audit-35-0days-45-exploits](https://joshua.hu/squid-security-audit-35-0days-45-exploits)
 
-Explanations and reproducers for each of the vulnerabilities are documented in each of the markdown files. IDs are assigned where possible, however since the majority of these remain unfixed, there are no identifiers. 
+Explanations and reproducers for each of the vulnerabilities are documented in each of the markdown files. IDs are assigned where possible, however since the majority of these remain unfixed, there are no identifiers.
 
 |  Vulnerability| ID |
 |--|--|
