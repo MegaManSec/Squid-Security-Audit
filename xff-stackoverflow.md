@@ -12,7 +12,7 @@ The parsing and ACL-checking of the X-Forwarded-For header is handled by the fun
 ```
 static void
 clientFollowXForwardedForCheck(Acl::Answer answer, void *data)
-{   
+{
     ClientRequestContext *calloutContext = (ClientRequestContext *) data;
 
     if (!calloutContext->httpStateIsValid())

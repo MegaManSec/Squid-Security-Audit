@@ -39,12 +39,13 @@ Specifically, if the request is an FTP request, the `Encode` function is called,
 
 
 A reproducer is given **base64-encoded**.
-(**Note: This does NOT require Squid to even be enabled to proxy FTP links, and even with the configuration** 
+
+**Note: This does NOT require Squid to even be enabled to proxy FTP links. Even with the following configuration, this crash will occur:**
+
 ```
 acl ftp proto FTP
 http_access deny ftp
 ```
-**this crash will occur**).
 
 The following request will cause an assertion:
 ```

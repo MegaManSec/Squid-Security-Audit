@@ -4,6 +4,8 @@ In February 2021, I started looking for vulnerabilities in forward-proxies, and 
 
 Explanations and reproducers for each of the vulnerabilities are documented in each of the markdown files. IDs are assigned where possible, however since the majority of these remain unfixed, there are no identifiers.
 
+One comment I would like to make is that hammering The Squid Cache's team with demands to fix these won't get far: the team is small, effectively understaffed, and they simply do not have the resources to fix everything any time soon. However, as with any system or project, it is important to reguarly review solutions used in your stack. If Squid is running in your stack and it cannot withstand being hacked, then it is up to the owners of that stack to re-evaluate whether Squid is the right solution for them.
+
 |  Vulnerability| ID |
 |--|--|
 | [Stack Buffer Overflow in Digest Authentication](digest-overflow.md)| |
