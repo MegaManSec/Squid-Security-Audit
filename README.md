@@ -17,7 +17,7 @@ With any system or project, it is important to reguarly review solutions used in
 | [X-Forwarded-For Stack Overflow](xff-stackoverflow.md)| |
 | [Chunked Encoding Stack Overflow](chunked-stackoverflow.md)| |
 | [Use-After-Free in Cache Manager Errors](cache-uaf.md)| |
-| [Cache Poisoning by Large Stored Response Headers (With Bonus XSS)](cache-headers.md)| |
+| [Cache Poisoning by Large Stored Response Headers (With Bonus XSS)](cache-headers.md)| [GHSA-543m-w2m2-g255](https://github.com/squid-cache/squid/security/advisories/GHSA-543m-w2m2-g255) |
 | [Memory Leak in CacheManager URI Parsing](cachemanager-memleak.md)|[CVE-2021-28652](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-28652) |
 | [RFC 2141 / 2169 (URN) Response Parsing Memory Leak](urn-memleak.md)| [CVE-2021-28651](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-28651)|
 | [Memory Leak in HTTP Response Parsing](response-memleaks.md)| |
@@ -30,7 +30,7 @@ With any system or project, it is important to reguarly review solutions used in
 | [Integer Overflow in Range Header](range-assert-int.md)|[CVE-2021-31808](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-31808) |
 | [Gopher Assertion Crash](gopher-assert-entry.md)| |
 | [Whois Assertion Crash](whois-assert-entry.md)| |
-| [Assertion in Gopher Response Handling](gopher-assert.md)| |
+| [Assertion in Gopher Response Handling](gopher-assert.md)| [CVE-2021-46784](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-46784) |
 | [RFC 2141 / 2169 (URN) Assertion Crash](urn-assert.md)| |
 | [Vary: Other HTTP Response Assertion Crash](vary-other-assert.md)|[CVE-2021-28662](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-28662) |
 | [Assertion in Negotiate/NTLM Authentication Using Pipeline Prefetching](ntlm-negotiate-assert.md)| |
