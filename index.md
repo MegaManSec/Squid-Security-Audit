@@ -11,7 +11,7 @@ With any system or project, it is important to reguarly review solutions used in
 
 |  Vulnerability| ID |
 |--|--|
-| [Stack Buffer Overflow in Digest Authentication](digest-overflow.md)| |
+| [Stack Buffer Overflow in Digest Authentication](digest-overflow.md)| [GHSA-phqj-m8gv-cq4g](https://github.com/squid-cache/squid/security/advisories/GHSA-phqj-m8gv-cq4g) |
 | [Use-After-Free in TRACE Requests](trace-uaf.md)| |
 | [Partial Content Parsing Use-After-Free](range-uaf.md)|[CVE-2021-31807](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-31807) |
 | [X-Forwarded-For Stack Overflow](xff-stackoverflow.md)| |
@@ -25,7 +25,7 @@ With any system or project, it is important to reguarly review solutions used in
 | [1-Byte Buffer OverRead in RFC 1123 date/time Handling](datetime-overflow.md)| |
 | [Null Pointer Dereference in Gopher Response Handling](gopher-nullpointer.md)| [GHSA-cg5h-v6vc-w33f](https://github.com/squid-cache/squid/security/advisories/GHSA-cg5h-v6vc-w33f) |
 | [One-Byte Buffer OverRead  in HTTP Request Header Parsing](garbage-overflow.md)| |
-| [strlen(NULL) Crash Using Digest Authentication](digest-strlen-null.md)| |
+| [strlen(NULL) Crash Using Digest Authentication](digest-strlen-null.md)| [GHSA-254c-93q9-cp53](https://github.com/squid-cache/squid/security/advisories/GHSA-254c-93q9-cp53) |
 | [Assertion in ESI Header Handling](esi-assert-header.md)| |
 | [Integer Overflow in Range Header](range-assert-int.md)|[CVE-2021-31808](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-31808) |
 | [Gopher Assertion Crash](gopher-assert-entry.md)| |
@@ -49,10 +49,10 @@ With any system or project, it is important to reguarly review solutions used in
 | [Buffer UnderRead in SSL CN Parsing](ssl-bufferunderread.md)| |
 | [Use-After-Free in ESI 'Try' (and 'Choose') Processing ](esi-uaf-crash.md)| |
 | [Use-After-Free in ESI Expression Evaluation ](esi-uaf.md)| |
-| [Buffer Underflow in ESI ](esi-underflow.md)| |
+| [Buffer Underflow in ESI ](esi-underflow.md)| [GHSA-wgvf-q977-9xjg](https://github.com/squid-cache/squid/security/advisories/GHSA-wgvf-q977-9xjg) |
 | [Assertion in Squid "Helper" Process Creator](ipc-assert.md)| |
-| [Assertion Due to 0 ESI 'when' Checking ](esi-when-assert-0.md)| |
-| [Assertion Using ESI's When Directive ](esi-when-assert-1.md)| |
+| [Assertion Due to 0 ESI 'when' Checking ](esi-when-assert-0.md)| [GHSA-4g88-277m-q89r](https://github.com/squid-cache/squid/security/advisories/GHSA-4g88-277m-q89r) |
+| [Assertion Using ESI's When Directive ](esi-when-assert-1.md)| [GHSA-4g88-277m-q89r](https://github.com/squid-cache/squid/security/advisories/GHSA-4g88-277m-q89r) |
 | [Assertion in ESI Variable Assignment (String)](esi-assignassert-2.md)| |
 | [Assertion in ESI Variable Assignment](esi-assignassert.md)| |
 | [Null Pointer Dereference In ESI's esi:include and esi:when ](esi-nullpointer.md)| |
