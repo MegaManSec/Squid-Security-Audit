@@ -40,13 +40,13 @@ With any system or project, it is important to reguarly review solutions used in
 | [Pipeline Prefetch Assertion With Invalid Headers](expect-100-invalid-headers-assert.md)| |
 | [Assertion Crash in Deferred Requests](defer-assert.md)| |
 | [Assertion in Digest Authentication](digest-assert.md)| |
-| [FTP URI Assertion](ftp-assert.md)| |
+| [FTP URI Assertion](ftp-assert.md)| [GHSA-2g3c-pg7q-g59w](https://github.com/squid-cache/squid/security/advisories/GHSA-2g3c-pg7q-g59w) |
 | [FTP Authentication Crash](ftp-fatal.md)| |
 | [Unsatisfiable Range Requests Assertion](range-assert.md)|[CVE-2021-31806](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-31806) |
 | [Crash in Content-Range Response Header Logic](range-fatal.md)|[CVE-2021-33620](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-33620) |
 | [Assertion Crash In HTTP Response Headers Handling](response-assertion.md)| |
 | [Implicit Assertion in Stream Handling](stream-assert.md)| |
-| [Buffer UnderRead in SSL CN Parsing](ssl-bufferunderread.md)| |
+| [Buffer UnderRead in SSL CN Parsing](ssl-bufferunderread.md)| [GHSA-73m6-jm96-c6r3](https://github.com/squid-cache/squid/security/advisories/GHSA-73m6-jm96-c6r3) |
 | [Use-After-Free in ESI 'Try' (and 'Choose') Processing ](esi-uaf-crash.md)| |
 | [Use-After-Free in ESI Expression Evaluation ](esi-uaf.md)| |
 | [Buffer Underflow in ESI ](esi-underflow.md)| [GHSA-wgvf-q977-9xjg](https://github.com/squid-cache/squid/security/advisories/GHSA-wgvf-q977-9xjg) |
