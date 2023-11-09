@@ -10,7 +10,7 @@ With any system or project, it is important to reguarly review solutions used in
 
 
 |  Vulnerability | CVE | GHSA |
-|--|--|
+|--|--|--|
 | [Buffer Overflow in Digest Authentication](digest-overflow.md)| [CVE-2023-46847](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-46847) | [GHSA-phqj-m8gv-cq4g](https://github.com/squid-cache/squid/security/advisories/GHSA-phqj-m8gv-cq4g) |
 | [Use-After-Free in TRACE Requests](trace-uaf.md)| | |
 | [Partial Content Parsing Use-After-Free](range-uaf.md)|[CVE-2021-31807](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-31807) | [GHSA-pxwq-f3qr-w2xf](https://github.com/squid-cache/squid/security/advisories/GHSA-pxwq-f3qr-w2xf) |
