@@ -23,11 +23,11 @@ With any system or project, it is important to reguarly review solutions used in
 | [Memory Leak in HTTP Response Parsing](response-memleaks.md)| | |
 | [Memory Leak in ESI Error Processing](esi-memleak.md)| | |
 | [1-Byte Buffer OverRead in RFC 1123 date/time Handling](datetime-overflow.md)| | [GHSA-8w9r-p88v-mmx9](https://github.com/squid-cache/squid/security/advisories/GHSA-8w9r-p88v-mmx9) |
-| [Null Pointer Dereference in Gopher Response Handling](gopher-nullpointer.md)| | [GHSA-cg5h-v6vc-w33f](https://github.com/squid-cache/squid/security/advisories/GHSA-cg5h-v6vc-w33f) |
+| [Null Pointer Dereference in Gopher Response Handling](gopher-nullpointer.md)| | [CVE-2023-46728](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-46728) [GHSA-cg5h-v6vc-w33f](https://github.com/squid-cache/squid/security/advisories/GHSA-cg5h-v6vc-w33f) |
 | [One-Byte Buffer OverRead  in HTTP Request Header Parsing](garbage-overflow.md)| | |
 | [strlen(NULL) Crash Using Digest Authentication](digest-strlen-null.md)| | [GHSA-254c-93q9-cp53](https://github.com/squid-cache/squid/security/advisories/GHSA-254c-93q9-cp53) |
 | [Assertion in ESI Header Handling](esi-assert-header.md)| | |
-| [Integer Overflow in Range Header](range-assert-int.md)|[CVE-2021-31808](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-31808) | [GHSA-pxwq-f3qr-w2xf](https://github.com/squid-cache/squid/security/advisories/)|
+| [Integer Overflow in Range Header](range-assert-int.md)|[CVE-2021-31808](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-31808) | [GHSA-pxwq-f3qr-w2xf](https://github.com/squid-cache/squid/security/advisories/GHSA-pxwq-f3qr-w2xf)|
 | [Gopher Assertion Crash](gopher-assert-entry.md)| | |
 | [Whois Assertion Crash](whois-assert-entry.md)| | |
 | [Assertion in Gopher Response Handling](gopher-assert.md)| [CVE-2021-46784](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-46784) | |
