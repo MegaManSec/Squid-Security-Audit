@@ -12,11 +12,11 @@ With any system or project, it is important to reguarly review solutions used in
 |  Vulnerability | CVE | GHSA |
 |--|--|--|
 | [Buffer Overflow in Digest Authentication](digest-overflow.md)| [CVE-2023-46847](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-46847) | [GHSA-phqj-m8gv-cq4g](https://github.com/squid-cache/squid/security/advisories/GHSA-phqj-m8gv-cq4g) |
-| [Use-After-Free in TRACE Requests](trace-uaf.md)| | [GHSA-rj5h-46j6-q2g5](https://github.com/squid-cache/squid/security/advisories/GHSA-rj5h-46j6-q2g5) |
+| [Use-After-Free in TRACE Requests](trace-uaf.md)| [CVE-2023-49288](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-49288) | [GHSA-rj5h-46j6-q2g5](https://github.com/squid-cache/squid/security/advisories/GHSA-rj5h-46j6-q2g5) |
 | [Partial Content Parsing Use-After-Free](range-uaf.md)|[CVE-2021-31807](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-31807) | [GHSA-pxwq-f3qr-w2xf](https://github.com/squid-cache/squid/security/advisories/GHSA-pxwq-f3qr-w2xf) |
 | [X-Forwarded-For Stack Overflow](xff-stackoverflow.md)| [CVE-2023-50269](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-50269) | [GHSA-wgq4-4cfg-c4x3](https://github.com/squid-cache/squid/security/advisories/GHSA-wgq4-4cfg-c4x3) |
 | [Chunked Encoding Stack Overflow](chunked-stackoverflow.md)| | |
-| [Use-After-Free in Cache Manager Errors](cache-uaf.md)| | |
+| [Use-After-Free in Cache Manager Errors](cache-uaf.md)| [CVE-2024-23638](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-23638) | [GHSA-j49p-553x-48rx](https://github.com/squid-cache/squid/security/advisories/GHSA-j49p-553x-48rx) |
 | [Cache Poisoning by Large Stored Response Headers (With Bonus XSS)](cache-headers.md)| [CVE-2023-5824](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-5824)| [GHSA-543m-w2m2-g255](https://github.com/squid-cache/squid/security/advisories/GHSA-543m-w2m2-g255) |
 | [Memory Leak in CacheManager URI Parsing](cachemanager-memleak.md)|[CVE-2021-28652](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-28652) | |
 | [RFC 2141 / 2169 (URN) Response Parsing Memory Leak](urn-memleak.md)| [CVE-2021-28651](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-28651) | |
