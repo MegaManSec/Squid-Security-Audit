@@ -15,12 +15,12 @@ With any system or project, it is important to reguarly review solutions used in
 | [Use-After-Free in TRACE Requests](trace-uaf.md)| [CVE-2023-49288](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-49288) | [GHSA-rj5h-46j6-q2g5](https://github.com/squid-cache/squid/security/advisories/GHSA-rj5h-46j6-q2g5) |
 | [Partial Content Parsing Use-After-Free](range-uaf.md)|[CVE-2021-31807](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-31807) | [GHSA-pxwq-f3qr-w2xf](https://github.com/squid-cache/squid/security/advisories/GHSA-pxwq-f3qr-w2xf) |
 | [X-Forwarded-For Stack Overflow](xff-stackoverflow.md)| [CVE-2023-50269](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-50269) | [GHSA-wgq4-4cfg-c4x3](https://github.com/squid-cache/squid/security/advisories/GHSA-wgq4-4cfg-c4x3) |
-| [Chunked Encoding Stack Overflow](chunked-stackoverflow.md)| | |
+| [Chunked Encoding Stack Overflow](chunked-stackoverflow.md)| [CVE-2024-25111](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-25111) | [GHSA-72c2-c3wm-8qxc](https://github.com/squid-cache/squid/security/advisories/GHSA-72c2-c3wm-8qxc) |
 | [Use-After-Free in Cache Manager Errors](cache-uaf.md)| [CVE-2024-23638](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-23638) | [GHSA-j49p-553x-48rx](https://github.com/squid-cache/squid/security/advisories/GHSA-j49p-553x-48rx) |
 | [Cache Poisoning by Large Stored Response Headers (With Bonus XSS)](cache-headers.md)| [CVE-2023-5824](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-5824)| [GHSA-543m-w2m2-g255](https://github.com/squid-cache/squid/security/advisories/GHSA-543m-w2m2-g255) |
-| [Memory Leak in CacheManager URI Parsing](cachemanager-memleak.md)|[CVE-2021-28652](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-28652) | |
-| [RFC 2141 / 2169 (URN) Response Parsing Memory Leak](urn-memleak.md)| [CVE-2021-28651](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-28651) | |
-| [Memory Leak in HTTP Response Parsing](response-memleaks.md)| | |
+| [Memory Leak in CacheManager URI Parsing](cachemanager-memleak.md)|[CVE-2021-28652](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-28652) | [GHSA-m47m-9hvw-7447](https://github.com/squid-cache/squid/security/advisories/GHSA-m47m-9hvw-7447) |
+| [RFC 2141 / 2169 (URN) Response Parsing Memory Leak](urn-memleak.md)| [CVE-2021-28651](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-28651) | [GHSA-ch36-9jhx-phm4](https://github.com/squid-cache/squid/security/advisories/GHSA-ch36-9jhx-phm4) |
+| [Memory Leak in HTTP Response Parsing](response-memleaks.md)| [CVE-2024-25617](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-25617) | [GHSA-h5x6-w8mv-xfpr](https://github.com/squid-cache/squid/security/advisories/GHSA-h5x6-w8mv-xfpr) |
 | [Memory Leak in ESI Error Processing](esi-memleak.md)| | |
 | [1-Byte Buffer OverRead in RFC 1123 date/time Handling](datetime-overflow.md)| [CVE-2023-49285](https://cve.mitre.org/cvename.cgi?name=CVE-2023-49285) | [GHSA-8w9r-p88v-mmx9](https://github.com/squid-cache/squid/security/advisories/GHSA-8w9r-p88v-mmx9) |
 | [Null Pointer Dereference in Gopher Response Handling](gopher-nullpointer.md)| [CVE-2023-46728](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-46728) | [GHSA-cg5h-v6vc-w33f](https://github.com/squid-cache/squid/security/advisories/GHSA-cg5h-v6vc-w33f) |
@@ -30,9 +30,9 @@ With any system or project, it is important to reguarly review solutions used in
 | [Integer Overflow in Range Header](range-assert-int.md)|[CVE-2021-31808](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-31808) | [GHSA-pxwq-f3qr-w2xf](https://github.com/squid-cache/squid/security/advisories/GHSA-pxwq-f3qr-w2xf)|
 | [Gopher Assertion Crash](gopher-assert-entry.md)| | |
 | [Whois Assertion Crash](whois-assert-entry.md)| | |
-| [Assertion in Gopher Response Handling](gopher-assert.md)| [CVE-2021-46784](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-46784) | |
+| [Assertion in Gopher Response Handling](gopher-assert.md)| [CVE-2021-46784](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-46784) | [GHSA-f5cp-6rh3-284w](https://github.com/squid-cache/squid/security/advisories/GHSA-f5cp-6rh3-284w) |
 | [RFC 2141 / 2169 (URN) Assertion Crash](urn-assert.md)| | |
-| [Vary: Other HTTP Response Assertion Crash](vary-other-assert.md)|[CVE-2021-28662](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-28662) | |
+| [Vary: Other HTTP Response Assertion Crash](vary-other-assert.md)|[CVE-2021-28662](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-28662) | [GHSA-jjq6-mh2h-g39h](https://github.com/squid-cache/squid/security/advisories/GHSA-jjq6-mh2h-g39h) |
 | [Assertion in Negotiate/NTLM Authentication Using Pipeline Prefetching](ntlm-negotiate-assert.md)| | |
 | [Assertion on IPv6 Host Requests with --disable-ipv6](ipv6-assert.md)| | |
 | [Assertion Crash on Unexpected "HTTP/1.1 100 Continue" Response Header](100-continue-entry-assert.md)| | |
