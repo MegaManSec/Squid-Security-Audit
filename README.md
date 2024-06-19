@@ -49,7 +49,7 @@ With any system or project, it is important to reguarly review solutions used in
 | [Buffer UnderRead in SSL CN Parsing](ssl-bufferunderread.md)| [CVE-2023-46724](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-46724)| [GHSA-73m6-jm96-c6r3](https://github.com/squid-cache/squid/security/advisories/GHSA-73m6-jm96-c6r3) |
 | [Use-After-Free in ESI 'Try' (and 'Choose') Processing ](esi-uaf-crash.md)| | |
 | [Use-After-Free in ESI Expression Evaluation ](esi-uaf.md)| | |
-| [Buffer Underflow in ESI ](esi-underflow.md)| | [GHSA-wgvf-q977-9xjg](https://github.com/squid-cache/squid/security/advisories/GHSA-wgvf-q977-9xjg) | [CVE-2024-37894](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-37894) |
+| [Buffer Underflow in ESI ](esi-underflow.md)| [CVE-2024-37894](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-37894) | [GHSA-wgvf-q977-9xjg](https://github.com/squid-cache/squid/security/advisories/GHSA-wgvf-q977-9xjg)
 | [Assertion in Squid "Helper" Process Creator](ipc-assert.md)| [CVE-2023-49286](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-49286) | [GHSA-xggx-9329-3c27](https://github.com/squid-cache/squid/security/advisories/GHSA-xggx-9329-3c27)|
 | [Assertion Due to 0 ESI 'when' Checking ](esi-when-assert-0.md)| | [GHSA-4g88-277m-q89r](https://github.com/squid-cache/squid/security/advisories/GHSA-4g88-277m-q89r) |
 | [Assertion Using ESI's When Directive ](esi-when-assert-1.md)| | [GHSA-4g88-277m-q89r](https://github.com/squid-cache/squid/security/advisories/GHSA-4g88-277m-q89r) |
