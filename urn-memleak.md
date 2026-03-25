@@ -25,3 +25,6 @@ As explained by Amos (Squid's core developer), it is possible for a single *requ
 The simple fix is to simply free the memory at the end of this function.
 
 This was assigned [CVE-2021-28651](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-28651).
+
+
+This issue was discovered by [Joshua Rogers](https://joshua.hu/).

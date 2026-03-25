@@ -46,3 +46,6 @@ Squid then asserts:
 2021/04/08 03:37:21.950| assertion failed: store.cc:834: "store_status == STORE_PENDING"
     current master transaction: master254
 ```
+
+
+This issue was discovered by [Joshua Rogers](https://joshua.hu/).

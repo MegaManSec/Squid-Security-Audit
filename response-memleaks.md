@@ -51,3 +51,6 @@ It is thus trivial to cause memory exhaustion by continuously requesting a page 
 
 Similar issues exist for the response headers `Warning`, `Via`, `Transfer-Encoding`, `Connection`, `Etag`, `Content-MD5`, `X-Forwarded-For`, `X-Accelerator-Vary`, `Proxy-Connection`, and in reverse proxy mode (using ESI), `Cookie`, `Accept-Language`, and `Vary`.
 There may be other cases where this causes problems and this list should not be assumed to be exhaustive.
+
+
+This issue was discovered by [Joshua Rogers](https://joshua.hu/).

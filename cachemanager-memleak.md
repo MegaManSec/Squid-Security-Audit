@@ -51,3 +51,6 @@ Luckily, given the CacheManager is a 'privileged area', it is unlikely this issu
 
 This bug was assigned [CVE-2021-28652](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-28652)
 
+
+
+This issue was discovered by [Joshua Rogers](https://joshua.hu/).

@@ -14,3 +14,6 @@ The `dup()` function will return `-1` if too many file descriptors are already o
 It is trivial to open a large amount of connections, then request a page which will attempt to spin-up an external helper service, like a password-protected page.
 
 "Too many file descriptors open" is an error which is handled gracefully everywhere else in Squid, leaving this the only vulnerable spot.
+
+
+This issue was discovered by [Joshua Rogers](https://joshua.hu/).

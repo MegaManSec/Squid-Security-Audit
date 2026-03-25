@@ -1162,3 +1162,6 @@ MDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAw
 MDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAKSG9zdDoKMDAwMDAwMDAwMDoKbWF4LWZvcndhcmRzOjAK
 Cg==
 ```
+
+
+This issue was discovered by [Joshua Rogers](https://joshua.hu/).

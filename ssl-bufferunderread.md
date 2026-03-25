@@ -66,3 +66,6 @@ While zero-length domains are rejected before the `matchDomainName` function is 
 since if `cn` is simply `"*"`, `cn+1` is `""` (i.e. a null character).
 
 The issue here is that reading from a negative buffer can either produce junk data, or can cause a crash; or is can do nothing. It is undefined behavior akin to a buffer overflow.
+
+
+This issue was discovered by [Joshua Rogers](https://joshua.hu/).

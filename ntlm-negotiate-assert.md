@@ -51,3 +51,6 @@ Proxy-Authorization: NTLM
 GET cache_object://mycache.example.com/info HTTP/1.1
 Proxy-Authorization: NTLM
 ```
+
+
+This issue was discovered by [Joshua Rogers](https://joshua.hu/).

@@ -36,3 +36,6 @@ This issue also affects the `Cache-Control` header in a very similar manner. Whe
     }
 ```
 An assertion is thus possible in the example given in the `Warning` case, but replacing `Warning` with `Cache-Control`.
+
+
+This issue was discovered by [Joshua Rogers](https://joshua.hu/).

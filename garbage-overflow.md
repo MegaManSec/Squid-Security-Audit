@@ -55,3 +55,6 @@ READ of size 1 at 0x629000004200 thread T0
     #5 0x12679b9 in Http::One::Server::parseOneRequest() src/servers/Http1Server.cc:88:29
     #6 0xcabad6 in ConnStateData::clientParseRequests() src/client_side.cc:1984:43
 ```
+
+
+This issue was discovered by [Joshua Rogers](https://joshua.hu/).

@@ -7,3 +7,6 @@ There is nothing more to say about this, the request to make is simply:
 GET http://1::/ HTTP/1.1
 ```
 and any server compiled with the flag will crash.
+
+
+This issue was discovered by [Joshua Rogers](https://joshua.hu/).

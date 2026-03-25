@@ -92,3 +92,6 @@ Note: this bug was found by both us and the Squid developers, albeit in differen
 
 This bug was assigned [CVE-2021-31808](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-31808)
 
+
+
+This issue was discovered by [Joshua Rogers](https://joshua.hu/).

@@ -46,3 +46,6 @@ which will cause the assertion:
 ```
 assertion failed: client_side.cc:1705: "request->http_ver.protocol == http_ver.protocol"
 ```
+
+
+This issue was discovered by [Joshua Rogers](https://joshua.hu/).

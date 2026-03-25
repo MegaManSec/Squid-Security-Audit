@@ -63,3 +63,6 @@ A simple reproducer for the `<esi:when>` case:
 ```
 <l xmlns:esi="http://www.edge-delivery.org/esi/1.0"><esi:when test="">
 ```
+
+
+This issue was discovered by [Joshua Rogers](https://joshua.hu/).

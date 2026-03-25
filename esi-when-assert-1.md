@@ -52,3 +52,6 @@ An example which will cause this assertion is as follows:
 ```
 <l xmlns:esi="http://www.edge-delivery.org/esi/1.0"><esi:when test="0!0&lt;0">
 ```
+
+
+This issue was discovered by [Joshua Rogers](https://joshua.hu/).

@@ -95,3 +95,6 @@ GET gopher://example.com:1234/\r\n\r\n
 while a server located at `example.com` on port `1234` simply responds with `8\t\t\n`.
 
 A Null pointer dereference will cause a crash on most systems.
+
+
+This issue was discovered by [Joshua Rogers](https://joshua.hu/).

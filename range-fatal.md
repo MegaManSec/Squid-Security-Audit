@@ -54,3 +54,6 @@ Connection: close
 ```
 
 This bug was assigned CVE-2021-33620.
+
+
+This issue was discovered by [Joshua Rogers](https://joshua.hu/).

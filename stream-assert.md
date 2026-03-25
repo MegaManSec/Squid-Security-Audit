@@ -58,3 +58,6 @@ The issue here is that `handleReply` asserts when `rep` is NULL. When this happe
 ```
 
 No more information is given in this document; it can happen randomly.
+
+
+This issue was discovered by [Joshua Rogers](https://joshua.hu/).

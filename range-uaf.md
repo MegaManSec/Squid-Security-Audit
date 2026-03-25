@@ -50,3 +50,6 @@ Range:bytes=0-0,-4,-0
 
 This bug was assigned [CVE-2021-31807](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-31807).
 
+
+
+This issue was discovered by [Joshua Rogers](https://joshua.hu/).

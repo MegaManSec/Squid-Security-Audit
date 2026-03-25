@@ -657,3 +657,6 @@ Therefore, a Proof of concept gopher response is given (Note: the request must b
 0	0	0
 0	0	0
 ```
+
+
+This issue was discovered by [Joshua Rogers](https://joshua.hu/).

@@ -844,3 +844,6 @@ Shadow byte legend (one shadow byte represents 8 application bytes):
   Right alloca redzone:    cb
   Shadow gap:              cc
   ```
+
+
+This issue was discovered by [Joshua Rogers](https://joshua.hu/).

@@ -34,3 +34,6 @@ However, the connection is not closed because a full response has not been recei
 
 In the meantime, the client can simply cancel their request. This in of itself will not cause a crash, but once the 'server '(i.e. `nc`) is either canceled or simply times out, an assertion will happen.
 
+
+
+This issue was discovered by [Joshua Rogers](https://joshua.hu/).

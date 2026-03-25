@@ -34,3 +34,6 @@ assertion failed: String.cc:106: "str"
 ```
 
 The example I have given is a real example. This is the only case in ESI's whole codebase which passes a non-existent char buffer to `String`.
+
+
+This issue was discovered by [Joshua Rogers](https://joshua.hu/).

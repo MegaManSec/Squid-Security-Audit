@@ -58,3 +58,6 @@ From RFC 1738:
    empty password.
 ```
 But, hey, c'est la vie.
+
+
+This issue was discovered by [Joshua Rogers](https://joshua.hu/).

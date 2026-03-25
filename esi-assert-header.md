@@ -15,3 +15,6 @@ String S (state.header().getList (Http::HdrType::ACCEPT_LANGUAGE));
 String strVary (rep->header.getList (Http::HdrType::VARY));
 ```
 This means that a rogue client can send an extremely long `Vary` or `Accept-Language` header to Squid when it is in reverse-proxy mode, and if it is using ESIs (or can be tricked into thinking it is using ESIs), it will crash with an assertion.
+
+
+This issue was discovered by [Joshua Rogers](https://joshua.hu/).

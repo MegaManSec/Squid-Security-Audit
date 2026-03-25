@@ -199,3 +199,6 @@ MDAwMDAwMDDn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5/fn5+fn5+fn5+fn
 5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn
 5+fn5+fn5+fnMDAwMJBAMD8wMDAwMDAwCg==
 ```
+
+
+This issue was discovered by [Joshua Rogers](https://joshua.hu/).

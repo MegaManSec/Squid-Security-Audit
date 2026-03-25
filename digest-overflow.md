@@ -63,3 +63,6 @@ Proxy-Authorization: Digest nc="AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA.."
 ```
 in order to cause a stack buffer overflow. There is no limit to the length of this memory violation, and it is trivial to cause remote code execution.
 
+
+
+This issue was discovered by [Joshua Rogers](https://joshua.hu/).

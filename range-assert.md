@@ -32,3 +32,6 @@ current master transaction: master53
 ```
 
 This bug was assigned [CVE-2021-31806](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-31806)
+
+
+This issue was discovered by [Joshua Rogers](https://joshua.hu/).

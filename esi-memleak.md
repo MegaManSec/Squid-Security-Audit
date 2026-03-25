@@ -57,3 +57,6 @@ ESIContext::fail ()
 Funnily enough, there is even a comment mentioning that the `err` is leaked :smile:
 
 It is trivial for this error page to be generated over-and-over until the memory of the system is exhausted.
+
+
+This issue was discovered by [Joshua Rogers](https://joshua.hu/).

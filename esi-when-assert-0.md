@@ -46,3 +46,6 @@ A simple reproducer is a reverse-proxied page with the following response:
 <l xmlns:esi="http://www.edge-delivery.org/esi/1.0"><esi:when test="0">
 ```
 Perhaps the bigger issue here is that testing for 0 is (and should be) a completely valid test: it just simply means always false. This could be for debugging reasons, or there could be some *other* script which is setting this to 0 upstream.
+
+
+This issue was discovered by [Joshua Rogers](https://joshua.hu/).

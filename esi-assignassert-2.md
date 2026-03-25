@@ -91,3 +91,6 @@ An example is given:
 </esi:assign>
 </html>
 ```
+
+
+This issue was discovered by [Joshua Rogers](https://joshua.hu/).

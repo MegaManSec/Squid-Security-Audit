@@ -30,3 +30,6 @@ which results in the assertion:
 ```
 2021/04/20 00:38:12.271| assertion failed: store.cc:832: "store_status == STORE_PENDING"
 ```
+
+
+This issue was discovered by [Joshua Rogers](https://joshua.hu/).

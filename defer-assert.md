@@ -18,3 +18,6 @@ As a Squid developer states:
 > #8  0x0000555555ea86df in AsyncCallT<UnaryMemFunT<ConnStateData, HttpControlMsg, HttpControlMsg> >::fire() ()
 
 No further information is given about this crash because it is extremely difficult (but not impossible) to reproduce in a reliable manner.
+
+
+This issue was discovered by [Joshua Rogers](https://joshua.hu/).

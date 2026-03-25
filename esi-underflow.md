@@ -37,3 +37,6 @@ TrieNode::add(char const *aString, size_t theLength, void *privatedata, TrieChar
         return internal[index]->add(aString + 1, theLength - 1, privatedata, transform);
 ```
 The issue here is that the integer `index` becomes whatever the pointer character `*aString` points to. In the case of standard ASCII, that would be always positive. However,in the case of our Cryllic `К`, the becomes negative: `-48`. If this does not crash (or worse) already, this function will be called once again and `index` will be set to `-102`.  Effectively, memory will be allocated at `internal[-48]` and `internal[-102]` respectively. Oops!
+
+
+This issue was discovered by [Joshua Rogers](https://joshua.hu/).

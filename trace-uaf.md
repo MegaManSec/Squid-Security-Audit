@@ -62,3 +62,6 @@ rKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKys
 rKysrKysrKysrKysrKwwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAgSFRUUC8xLjAN
 Ckhvc3Q6ClVzZXItQWdlbnQ6Cm1heC1mb3J3YXJkczowCgpACg==
 ```
+
+
+This issue was discovered by [Joshua Rogers](https://joshua.hu/).

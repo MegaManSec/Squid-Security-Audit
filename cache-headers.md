@@ -58,3 +58,6 @@ X-Requested-User-Agent: Mozilla/5.0 <script>alert(1);</script>AAAAAAAA……
 As such, the original response *headers* are placed into the response *body*, which can then be executed by the browser.
 
 Of course, such 'attacks' are completely theoretical and are only considered for entertainment purposes. The main issue here is that any cached object with large headers will become inaccessible (which can only be recovered by clearing the cache) after they are written to the on-file cache.
+
+
+This issue was discovered by [Joshua Rogers](https://joshua.hu/).

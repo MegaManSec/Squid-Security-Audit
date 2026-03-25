@@ -729,3 +729,6 @@ Aborted
 
 
 There are many many many other places this may occur, and a full assessment has not been made.
+
+
+This issue was discovered by [Joshua Rogers](https://joshua.hu/).

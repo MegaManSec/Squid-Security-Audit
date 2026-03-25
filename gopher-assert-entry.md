@@ -40,3 +40,6 @@ This will close the connection after 0.1 seconds, which will result in the follo
 2021/04/18 04:13:45.865| 20,3| store.cc(1763) replaceHttpReply: StoreEntry::replaceHttpReply: gopher://gopher.floodgap.com/
 2021/04/18 04:13:45.866| assertion failed: store.cc:832: "store_status == STORE_PENDING"
 ```
+
+
+This issue was discovered by [Joshua Rogers](https://joshua.hu/).

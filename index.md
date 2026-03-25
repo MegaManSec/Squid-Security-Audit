@@ -8,6 +8,8 @@ The Squid Team have been helpful and supportive during the process of reporting 
 
 With any system or project, it is important to reguarly review solutions used in your stack to determine whether they are still appropriate. If you are running Squid in an environment which may suffer from any of these issues, then it is up to you to reassess whether Squid is the right solution for your system.
 
+All of these vulnerabilities were found by [Joshua Rogers](https://joshua.hu/).
+
 
 |  Vulnerability | CVE | GHSA |
 |--|--|--|

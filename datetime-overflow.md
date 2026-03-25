@@ -59,3 +59,6 @@ Warning: " "W000 000000000000 0000000000000000 000000000:0000000000000000 y"
 which will be passed to `make_month` as `make_month("y")`.
 
 While this is fairly harmless, a crash may occur if the overread attempts to access protected memory.
+
+
+This issue was discovered by [Joshua Rogers](https://joshua.hu/).

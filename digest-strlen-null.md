@@ -153,3 +153,6 @@ This is easy to reproduce, for example with the following header:
 Proxy-Authorization: Digest username="0",realm="0",nonce="15930256138a2072903bd84d980f485c",uri="0",response="00000000000000000000000000000000", algorithm="md5-sess"
 ```
 Here we can see that the required `algorithm="md5-sess"` is set, and there are no `qop`, `nc`, or `cnonce` values.
+
+
+This issue was discovered by [Joshua Rogers](https://joshua.hu/).

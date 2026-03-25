@@ -26,3 +26,6 @@ assertion  failed: client_side.cc:1589: "conn->pipeline.front() == context"
 ```
 
 No further information is provided in this document.
+
+
+This issue was discovered by [Joshua Rogers](https://joshua.hu/).

@@ -47,3 +47,6 @@ which will cause the assertion:
 ```
 assertion failed: Write.cc:43: "!ccb->active()"
 ```
+
+
+This issue was discovered by [Joshua Rogers](https://joshua.hu/).

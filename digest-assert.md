@@ -51,3 +51,6 @@ The issue is that if [UTF-8 is enabled](http://www.squid-cache.org/Doc/config/au
                 }
 ```
 Both functions Cp1251ToUtf8 and Latin1ToUtf8 return an `SBuf`-type. However, the function `SBufToString` is used to convert an `SBuf`-type to a `String` type. The issue here is that prior checks for the length of the header do not account for the expansion by the UTF-8 conversion, and thus, a smaller-than-65535-length `username` may be sent to Squid, which will be expanded to over 65535-bytes, and thus, an assertion will occur when it is attempted to be converted to a `String`-type due to its hard-coded `65535`-byte limit.
+
+
+This issue was discovered by [Joshua Rogers](https://joshua.hu/).

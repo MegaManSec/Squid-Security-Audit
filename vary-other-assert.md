@@ -59,3 +59,6 @@ I do not know why the final colon is required, but it is.
 
 
 This was assigned [CVE-2021-28662](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-28662).
+
+
+This issue was discovered by [Joshua Rogers](https://joshua.hu/).
